@@ -1,4 +1,7 @@
 const add = function (a, b) {
+    if (isNaN(a)) {
+        return 0;
+    } 
     return +a + +b;
 }
 /*
