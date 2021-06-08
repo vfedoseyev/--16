@@ -1,13 +1,4 @@
 const add = function (a, b) {
-    if (isNaN(a)) {
-        return 0;
-    } else if (typeof (a, b) === 'boolean') {
-        return +a + +b;
-
-    } else if (typeof (a, b) === 'number') {
-        return +a + +b;
-
-    };
     return +a + +b;
 }
 /*
