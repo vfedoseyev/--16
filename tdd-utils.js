@@ -1,9 +1,5 @@
-const add = function (a, b) {
-    if (isNaN(a)) {
-        return 0;
-    } 
-    return +a + +b;
-}
+const add = (a, b) => isNaN(a, b) ? 0 : +a + +b;
+
 /*
     Измените функцию add таким образом, чтобы
     все условия ниже вывели в консоль true
